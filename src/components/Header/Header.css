@@ -1,0 +1,22 @@
+.nav{
+    font:('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap') ;
+    background-color: plum;
+    color: rgb(5, 5, 21);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 2em sans-serif;
+    padding: 0 1rem;
+    margin: 20px;
+}
+
+
+.nav:active{
+    background-color: whitesmoke;
+}
+
+
+.nav :hover {
+    background-color:  rgb(124, 123, 118);
+}
