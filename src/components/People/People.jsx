@@ -9,10 +9,10 @@ useEffect (() => {
     axios.get('https://swapi.dev/api/people')
     .then ((resp)=>{
         setPeople(resp.data.results)
-        console.log(resp)
     })
-}),[people];
-     
+},
+    [people])
+
 
   return (
     <div>

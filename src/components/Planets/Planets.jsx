@@ -8,9 +8,9 @@ useEffect (() => {
     axios.get('https://swapi.dev/api/planets')
     .then ((resp)=>{
         setPlanets(resp.data.results)
-        console.log(resp)
-    })
-}),[planets];
+      })
+    }
+,[planets])
 
   return (
     <div>
